@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="56px" height="56px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="23" y1="46" x2="23" y2="1.05801388248801" id="LinearGradient25">
+      <stop id="Stop26" stop-color="#f61c34" offset="0" />
+      <stop id="Stop27" stop-color="#fa747f" offset="1" />
+    </linearGradient>
+    <filter x="2119px" y="1682px" width="56px" height="56px" filterUnits="userSpaceOnUse" id="filter28">
+      <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 0.211764705882353  0 0 0 0 0.211764705882353  0 0 0 0.16078431372549 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget29">
+      <path d="M 0 23  C 0 10.2974510192871  10.2974510192871 0  23 0  C 35.7025489807129 0  46 10.2974510192871  46 23  C 46 35.7025489807129  35.7025489807129 46  23 46  C 10.2974510192871 46  0 35.7025489807129  0 23  Z " fill-rule="nonzero" fill="url(#LinearGradient25)" stroke="none" transform="matrix(1 0 0 1 2124 1684 )" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -2119 -1682 )">
+    <use xlink:href="#widget29" filter="url(#filter28)" />
+    <use xlink:href="#widget29" />
+  </g>
+</svg>
